@@ -15,6 +15,17 @@ int main() {
     int tabuleiro[10][10];
     int i, j;
 
+
+    // Inicializando o tabuleiro (valores zerados)
+
+    for(i = 0; i < 10; i++) {
+
+        for(j = 0; j < 10; j++){
+
+            tabuleiro[i][j] = 0;
+        }
+    }
+
     // Sugestão: Posicione dois navios no tabuleiro, um verticalmente e outro horizontalmente.
     // Sugestão: Utilize `printf` para exibir as coordenadas de cada parte dos navios.
 
