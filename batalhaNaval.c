@@ -27,7 +27,28 @@ int main() {
     }
 
     // Sugestão: Posicione dois navios no tabuleiro, um verticalmente e outro horizontalmente.
+
+    // Navio na posição horizontal, linha 2, começando na coluna 3
+
+    tabuleiro[2][3] = 3;
+    tabuleiro[2][4] = 3;
+    tabuleiro[2][5] = 3;
+
+
+    // Navio na posição vertical, coluna 7, começando na linha 5
+
+    tabuleiro[5][7] = 3;
+    tabuleiro[6][7] = 3;
+    tabuleiro[7][7] = 3;
+    
     // Sugestão: Utilize `printf` para exibir as coordenadas de cada parte dos navios.
+
+    // Mostrando o o tabuleiro após alterações
+
+    
+
+
+
 
     // Nível Aventureiro - Expansão do Tabuleiro e Posicionamento Diagonal
     // Sugestão: Expanda o tabuleiro para uma matriz 10x10.
