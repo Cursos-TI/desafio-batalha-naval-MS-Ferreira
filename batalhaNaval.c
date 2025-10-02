@@ -6,11 +6,10 @@
 
 int main() {
 
-    printf("Desafio Batalha Naval Novato !!!\n");
     // Nível Novato - Posicionamento dos Navios
     // Sugestão: Declare uma matriz bidimensional para representar o tabuleiro (Ex: int tabuleiro[5][5];).
 
-    // Criação das matriz (tabuleiro 10x10)
+    // Criação das matriz (tabuleiro 10x10) e declaração de i, j
 
     int tabuleiro[10][10];
     int i, j;
@@ -43,11 +42,16 @@ int main() {
     
     // Sugestão: Utilize `printf` para exibir as coordenadas de cada parte dos navios.
 
-    // Mostrando o o tabuleiro após alterações
+    // Mostrando o tabuleiro após alterações
 
-    
+    for(i = 0; i < 10; i++) {
 
+        for(j = 0; j < 10; j++) {
 
+            printf("%d", tabuleiro[i][j]);
+        }
+        printf("\n");
+    }
 
 
     // Nível Aventureiro - Expansão do Tabuleiro e Posicionamento Diagonal
